@@ -1,0 +1,19 @@
+{
+  "name": "oni-map-printer",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-blueprint": "node index.js save-data",
+    "create-save-world": "node index world-data"
+  },
+  "keywords": [],
+  "author": "Jovica Dimitrijevic",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "oni-save-parser": "^10.0.0"
+  }
+}
